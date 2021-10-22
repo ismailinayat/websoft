@@ -1,0 +1,55 @@
+$color-primary: #EA3A60;
+$color-primary-dark: #f71647;
+
+$logo-color: #02073E;
+$max-width: 130rem;
+
+@import "media";
+
+@import "./components/navbar";
+@import "./components/header";
+@import "./components/feature";
+@import "./components/process";
+@import "./components/process";
+
+*,
+*::before,
+*::after {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  
+  font-size: 62.5%;
+
+  @include respond(tab-land) {
+    font-size: 60%
+  }
+
+  @include respond(tab-port) {
+    font-size: 55%
+  }
+
+  @include respond(phone) {
+    font-size: 50%
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*
+0 - 600px:        Phone
+600 - 900px:      Tablet Portrait
+900 - 1200px:     Tablet Landscape
+1200 - 1800px:    Desktop (Our initial styles)
+1800 - 1800px+:   Big Desktop
+*/
+
