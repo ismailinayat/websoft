@@ -1,6 +1,24 @@
 $color-primary: #EA3A60;
 $color-primary-dark: #f71647;
 
+$color-green : #55c57a;
+$color-green-light : #7ed56f;
+$color-green-dark : #28b485;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-light-grey-1 : #f7f7f7;
+
+$color-grey-dark : #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+$color-white: #fff;
+$color-black: #000;
+
 $logo-color: #02073E;
 $max-width: 130rem;
 
@@ -11,6 +29,10 @@ $max-width: 130rem;
 @import "./components/feature";
 @import "./components/process";
 @import "./components/process";
+@import "./components/testimonial";
+@import "./components/slider";
+@import "./components/rating";
+@import "./components/contact";
 
 *,
 *::before,

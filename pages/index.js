@@ -4,6 +4,8 @@ import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import Feature from '../components/Feature';
 import Process from '../components/Process';
+import SliderContainer from '../components/SliderContainer';
+import Contact from '../components/Contact';
 
 
 export default function Home() {
@@ -25,6 +27,8 @@ export default function Home() {
       <Header></Header>
       <Feature></Feature>
       <Process></Process>
+      <SliderContainer></SliderContainer>
+      <Contact></Contact>
 
 
     </div>
