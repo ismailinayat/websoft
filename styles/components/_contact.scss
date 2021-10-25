@@ -47,6 +47,8 @@
             padding: 5rem 10rem;
             display: flex;
 
+            
+
             .book__form {
                 //background-color:aqua ;
                 width: 60%;
@@ -54,10 +56,13 @@
 
             .contact {
                 width: 40%;
-                background-color:cadetblue;
+                //background-color: #BEA8AA;
+                background-color: $color-primary;
                 display: flex;
                 align-items: center;
                 padding: 5rem;
+                //color: rgba(255, 255, 255, 0.808);
+                color: $color-light-grey-1;
 
                 .contact__info {
 

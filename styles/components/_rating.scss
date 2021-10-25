@@ -5,9 +5,26 @@
         display: flex;
         .star {
 
+            &:not(:last-child) {
+                margin-right: 2px;
+            }
+
             list-style: none;
             svg {
-                
+              width: 1.5rem;
+              height: 1.5rem;
+              stroke: $color-primary; 
+              stroke-width: 1px;
+              fill: $color-primary;
+
+              
+            }
+        }
+
+        .star-o {
+            
+            svg {
+                fill: $color-grey-dark-2;
             }
         }
     }

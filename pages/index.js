@@ -6,6 +6,7 @@ import Feature from '../components/Feature';
 import Process from '../components/Process';
 import SliderContainer from '../components/SliderContainer';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <Process></Process>
       <SliderContainer></SliderContainer>
       <Contact></Contact>
+      <Footer></Footer>
 
 
     </div>

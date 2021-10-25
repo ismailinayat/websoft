@@ -8,13 +8,13 @@ const Rating = ({ rating }) => {
     if (i < rating) {
       totalRating.push(
         <li className="star" key={`rating-key${i}`}>
-          <FaStar stroke='yellow' strokeWidth='1px'/>
+          <FaStar strokeWidth='1px'/>
         </li>
       );
     } else {
       totalRating.push(
         <li className="star star-o" key={`rating-key${i}`}>
-          <BsStar />
+          <FaStar/>
         </li>
       );
     }

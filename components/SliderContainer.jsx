@@ -3,6 +3,8 @@
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ArrowLeft from './ArrowLeft';
+import ArrowRight from './ArrowRight';
 
 import React from 'react'
 import Image from 'next/image';
@@ -97,24 +99,73 @@ const data = [
   },
 ];
 
+
+
 const settings = {
-    dots: true,
-    infinite: true,
+    //infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3
+    slidesToScroll: 3,
+    initialSlide: 0,
+    nextArrow: <ArrowRight />,
+    prevArrow: <ArrowLeft />,
+    responsive: [
+      {
+        breakpoint: 1600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+
+        }
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
 function SliderContainer() {
 
     return (
         <div className="slider">
+
+          <div className="heading">
+            <div className="heading__secondary">
+              <p>
+
+              Testimonial
+              </p>
+            </div>
+
+            <div className="heading__primary">
+              <h3>
+
+              Our Moto Is 100% Client Satisfaction
+              </h3>
+            </div>
+          </div>
             
             <Slider {...settings}>
                 {data.map((testimonial) => {
                     return (
 
                     <div className='testimonial__card' key={testimonial.id}>
+
+                        <div className="testimonial__card--container">
+
                         <Rating rating = {testimonial.review}></Rating>
                         <div className="review__title">
                             <h3>{testimonial.title}</h3>
@@ -128,7 +179,27 @@ function SliderContainer() {
                             <div className="user__img">
                                 <Image src={testimonial.avatar}></Image>
                             </div>
+
+                            <div className="user__info">
+
+                              <div className="name">
+                                <h3>
+                                  {testimonial.name}
+                                </h3>
+                              </div>
+
+                              <div className="designation">
+                                <h3>
+                                  {testimonial.designation}
+                                </h3>
+                              </div>
+                              
+                            </div>
+
                         </div>
+                        </div>
+
+
                     </div>
                     )
                 })}
