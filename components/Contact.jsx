@@ -31,7 +31,7 @@ function Contact() {
       );
   };
   return (
-    <div>
+    <div id='contact'>
       <ToastContainer></ToastContainer>
       <section className="section-book">
         <div className="img__left"></div>

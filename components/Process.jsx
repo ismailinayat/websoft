@@ -1,11 +1,12 @@
 import React from 'react';
-
 import ArrowEven from './icons/ArrowEven';
 import ArrowOdd from './icons/ArrowOdd';
 
 function Process() {
+
+    
     return (
-        <div className="process">
+        <div id="process" className="process">
 
             <div className="process__heading">
                 <div className="process__heading--secondary">

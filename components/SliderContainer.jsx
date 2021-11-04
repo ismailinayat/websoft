@@ -140,7 +140,7 @@ const settings = {
 function SliderContainer() {
 
     return (
-        <div className="slider">
+        <div className="slider" id='slideSection'>
 
           <div className="heading">
             <div className="heading__secondary">

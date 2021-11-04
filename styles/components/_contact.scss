@@ -168,7 +168,11 @@
                     }
 
                     .address {
-                        width: 30%;
+                        
+                        @include respond(tab-port) {
+                            width: 30%;
+
+                        }
                     }
 
                 }

@@ -47,7 +47,7 @@ const team = [
 
 function Team() {
     return (
-        <div className='team'>
+        <div id="team" className='team'>
 
             <div className="heading">
 

@@ -11,6 +11,14 @@
 .arrow__left {
     left: 46.5%;
 
+    @include respond(tab-land) {
+        left: 42%
+    }
+
+    @include respond(phone) {
+        left: 39%
+    }
+
     &:hover {
         color: $color-grey-dark
     }
@@ -19,6 +27,14 @@
 
 .arrow__right {
     right: 46.5%;
+
+    @include respond(tab-land) {
+        right: 42%
+    }
+
+    @include respond(phone) {
+        right: 39%
+    }
 
     &:hover {
         color: $color-grey-dark
