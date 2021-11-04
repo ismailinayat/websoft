@@ -57,6 +57,9 @@ function Contact() {
                                     <h3>Contact Information</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nemo.</p>
                                 </div>
+
+                                <div className="info__container">
+
                                 <div className="info phone">
                                     <div className="icon phone__icon">
                                     <BsFillTelephoneFill size="20"></BsFillTelephoneFill>
@@ -93,6 +96,7 @@ function Contact() {
                                     <div className="address__address">
                                         <p>Office # 18, Talha Heights, Range Road, Rawalpindi, Pakistan</p>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                         </div>

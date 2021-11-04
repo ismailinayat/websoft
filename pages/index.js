@@ -7,6 +7,8 @@ import Process from '../components/Process';
 import SliderContainer from '../components/SliderContainer';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Projects from '../components/Projects';
+import Team from '../components/Team';
 
 
 export default function Home() {
@@ -28,6 +30,8 @@ export default function Home() {
       <Header></Header>
       <Feature></Feature>
       <Process></Process>
+      <Projects></Projects>
+      <Team></Team>
       <SliderContainer></SliderContainer>
       <Contact></Contact>
       <Footer></Footer>
