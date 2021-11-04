@@ -8,22 +8,16 @@ function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     console.log(mobileMenuOpen)
     const mobileNavClasses = mobileMenuOpen ? "mobile__menu__background mobile__menu__active" : "mobile__menu__background"
-    //console.log(document.querySelector("#process"))
     useEffect(() => {
 
-        //mobileMenuOpen ? document.body.style.overflow = "hidden" : document.body.style.overflow="";
-    })
+        window.addEventListener("resize", mobileMenuSet)
+        //return () => window.removeEventListener("resize");
+    }, [])
 
 
-
-       
-
-    //console.log(processSection.getBoundingClientRect())
-    //const processCords = processSection.getBoundingClientRect();
-    //const projectCords = projectSection.getBoundingClientRect();
-    //const contactCords = contactSection.getBoundingClientRect();
-    //const headCords = headSection.getBoundingClientRect();
-
+    const mobileMenuSet = (e) => {
+        if (e.target.innerWidth > 884) setMobileMenuOpen(false)
+    }
 
     const linkHandler = (e) => {
         if(e.target.id === 'navprocess_link' || 'navproject_link' || 'navteam_link' || 'navreview_link' || 'navhire_btn') {
@@ -105,8 +99,8 @@ function Navbar() {
                 </ul>
 
                 <div className="nav__btn active" id='navhire_btn' onClick={(e) => linkHandler(e)}>
-                        <button >
-                            <p>
+                        <button id='navhire_btn' onClick={(e) => linkHandler(e)}>
+                            <p id='navhire_btn' onClick={(e) => linkHandler(e)}>
                                 Hire Us
                             </p>
                         </button>
