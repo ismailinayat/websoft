@@ -5,7 +5,7 @@ function Header() {
     const linkHandler = (e) => {
 
 
-        const projectSection = document.querySelector('#project')
+        const projectSection = document.querySelector('#projects')
 
 
 
