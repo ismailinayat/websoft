@@ -11,13 +11,13 @@ function Process() {
             <div className="process__heading">
                 <div className="process__heading--secondary">
                     <p>
-                        Whats the Process
+                        Our Process
                     </p>
                 </div>
 
                 <div className="process__heading--primary">
                     <h3>
-                        Our Website development process is as follow
+                        How do we Convert Your Amazing Ideas Into Reality
                     </h3>
                 </div>
             </div>
@@ -37,13 +37,13 @@ function Process() {
 
                     <div className="process__title">
                         <h4>
-                            Create and Finalize Design
+                            Content
                         </h4>
                     </div>
 
                     <div className="process__paragraph">
                         <p>
-                            Get your blood tests delivered at home collect a sample from the your blood tests.
+                            Once we have understood your idea, we start creating the content tailored to your app. This includes images, videos, illustrations etc.
                         </p>
                     </div>
                 </div>
@@ -60,13 +60,13 @@ function Process() {
 
                     <div className="process__title">
                         <h4>
-                            Create and Finalize Design
+                            Design
                         </h4>
                     </div>
 
                     <div className="process__paragraph">
                         <p>
-                            Get your blood tests delivered at home collect a sample from the your blood tests.
+                            Next we create beautiful design for your application that reflect your business. This includes layouts, color schemes, animations etc. Ofcourse all of our designs are mobile responsive.
                         </p>
                     </div>
                 </div>
@@ -83,13 +83,13 @@ function Process() {
 
                     <div className="process__title">
                         <h4>
-                            Create and Finalize Design
+                            Development
                         </h4>
                     </div>
 
                     <div className="process__paragraph">
                         <p>
-                            Get your blood tests delivered at home collect a sample from the your blood tests.
+                            Coding, Coding and lots of coding. 
                         </p>
                     </div>
                 </div>
@@ -102,13 +102,13 @@ function Process() {
 
                     <div className="process__title">
                         <h4>
-                            Create and Finalize Design
+                            Deployment
                         </h4>
                     </div>
 
                     <div className="process__paragraph">
                         <p>
-                            Get your blood tests delivered at home collect a sample from the your blood tests.
+                            Finally we launch your website. We use industry leaders for this step as well such as Heroku, Digital Ocean and AWS so that your applications scale to the sky without hitting your budget.
                         </p>
                     </div>
                 </div>

@@ -11,9 +11,10 @@ import { AiFillHome } from "react-icons/ai";
 function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
+    e.target[3].innerText = 'Sending ...'
+    e.target[3].style.backgroundColor = 'grey'
 
-    emailjs
-      .sendForm(
+    emailjs.sendForm(
         "service_qqj5iq9",
         "template_5t041ed",
         e.target,
@@ -21,7 +22,8 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          e.target[3].innerText = 'Send Email';
+          e.target[3].style.backgroundColor = '#EA3A60'
           toast.success("Email Sent!");
           e.target.reset();
         },
@@ -88,7 +90,7 @@ function Contact() {
                 </div>
 
                 <button className="btn btn--green u-margin-top-medium">
-                  Send Email &rarr;
+                  Send Email
                 </button>
               </form>
             </div>
@@ -98,8 +100,7 @@ function Contact() {
                 <div className="heading">
                   <h3>Contact Information</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Mollitia, nemo.
+                    You can contact us on the following contact information.
                   </p>
                 </div>
 
@@ -110,7 +111,7 @@ function Contact() {
                     </div>
 
                     <div className="phone__number">
-                      <p className="number__1">+92-336-551173</p>
+                      <p className="number__1">+92-336-5561173</p>
 
                       <p className="number__2">+92-330-9326341</p>
                     </div>

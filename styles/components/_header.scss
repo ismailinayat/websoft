@@ -1,24 +1,29 @@
 .header {
-    padding: 10rem 0;
+    padding: 10rem 2rem;
+    padding-bottom: 5rem;
+   // height: 110vh;
     position: relative;
     text-align: center;
+    overflow: hidden;
     //background-color: paleturquoise;
     //z-index: -2;
     //min-height: 100rem;
 
     @include respond(tab-port) {
-        padding: 10rem 2rem;
+        //padding: 10rem 2rem;
     }
 
     &__heading {
 
-        max-width: 65rem;
+        max-width: 75rem;
         margin: 0 auto;
         font-size: 5rem;
+        line-height: 6rem;
         
         h3 {
             text-align: center;
-            font-weight: 600;
+            font-weight: 700;
+            
 
         }
     }
@@ -28,7 +33,12 @@
         font-size: 1.6rem;
         max-width: 50rem;
         margin: 3rem auto;
+        margin-bottom: 5rem;
         text-align: center;
+
+        p {
+            font-weight: 300;
+        }
     }
 
     &__button {
@@ -103,10 +113,38 @@
 
     }
 
+    .img__center {
+        background-image: url("/assets/VS_Code.png");
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: hidden;
+        border-radius: 5px;
+        height: 45rem;
+        width: 80rem;
+        background-color: aliceblue;
+
+        @include respond(tab-port) {
+            width: 80%;
+            height: 40rem;
+            bottom: 15rem;
+        }
+        @include respond(phone) {
+            width: 60rem;
+            height: 40rem;
+            bottom: 20rem;
+        }
+
+
+    }
+
     .img__right {
         right: 0%;
         background-image: url("/assets/shape-right.png");
-        background-position: right;
+        //background-position: right;
         //background-color: palevioletred;
 
     }

@@ -16,13 +16,17 @@
 
         &__logo {
             color: $logo-color;
-            font-size: 2rem;
+            //font-size: 1.5rem;
             font-weight: bold;
             cursor: pointer;
 
             a {
 
                 text-decoration: none;
+
+                img {
+                    width: 20rem;
+                }
 
             }
         }

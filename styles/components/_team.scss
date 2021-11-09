@@ -1,6 +1,6 @@
 .team {
 
-    padding: 0 5rem;
+    padding: 10rem 5rem;
     .heading {
 
         text-align: center;
@@ -125,7 +125,6 @@
                     font-size: 1.2rem;
                     text-align: center;
                     color: $color-primary;
-                    background-color: rosybrown;
                     overflow: hidden;
                     transform: scaleY(0);
                     transform-origin: bottom;
@@ -135,6 +134,12 @@
                     &__link {
                         cursor: pointer;
                         transition: all 0.3s;
+
+                        img {
+
+                            width:2rem;
+                            height:2rem;
+                        }
                         &:not(:last-child) {
                             margin-bottom: 0.2rem;
                         }

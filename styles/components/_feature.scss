@@ -24,6 +24,10 @@
 
         .feature__heading--primary {
             font-size: 2rem;
+
+            h3 {
+                font-weight: 700;
+            }
         }
     }
 
@@ -70,7 +74,7 @@
 
                     margin-bottom: 1rem;
                     h3 {
-                        font-size: 1.5rem;
+                        font-size: 1.6rem;
                     }
 
                 }
@@ -78,7 +82,9 @@
                 .feature__detail {
 
                     p {
-                        font-size: 1.5rem;
+                        font-size: 1.4rem;
+                        font-weight: 300;
+                        color: #000;
                     }
 
                 }

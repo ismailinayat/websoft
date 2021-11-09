@@ -22,6 +22,14 @@ $color-black: #000;
 $logo-color: #02073E;
 $max-width: 130rem;
 
+$font-weight-heavy-3: 700;
+$font-weight-heavy-2: 600;
+$font-weight-heavy-1: 500;
+
+$font-weight-light-3: 500;
+$font-weight-heavy-1: 500;
+$font-weight-heavy-1: 500;
+
 @import "media";
 
 @import "./components/navbar";
@@ -36,6 +44,7 @@ $max-width: 130rem;
 @import "./components/footer";
 @import "./components/projects";
 @import "./components/team";
+@import "./components/stack";
 
 *,
 *::before,
@@ -66,7 +75,9 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  color: $color-grey-dark-3;
 }
+
 
 
 

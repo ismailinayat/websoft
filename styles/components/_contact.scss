@@ -2,7 +2,13 @@
 .section-book {
     background-image: $color-light-grey-1;
     padding: 15rem 5rem;
+    overflow: hidden;
     position: relative;
+
+
+    @include respond(tab-port) {
+        padding: 10rem 3rem;
+    }
 
     .img__left {
 
@@ -170,7 +176,12 @@
                     .address {
                         
                         @include respond(tab-port) {
-                            width: 30%;
+                            width: 100%;
+
+                        }
+
+                        @include respond(phone) {
+                            width: 100%;
 
                         }
                     }
@@ -258,6 +269,19 @@
                 transition: all 0.2s;
                 background-color: $color-primary;
                 color: $color-white;
+                position: relative;
+
+                .email__loader {
+                    position: absolute;
+                    height: 3rem;
+                    width: 3rem;
+
+                    img {
+                        height: 100%;
+                    width: 100%;
+                    background-color: transparent;
+                    }
+                }
 
                 &:hover {
 

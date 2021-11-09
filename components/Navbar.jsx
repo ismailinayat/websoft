@@ -24,7 +24,7 @@ function Navbar() {
             setMobileMenuOpen(false)
         }
         const processSection = document.querySelector('#process')
-        const projectSection = document.querySelector('#project')
+        const projectSection = document.querySelector('#projects')
         const contactSection = document.querySelector('#contact')
         const teamSection = document.querySelector('#team')
         const headSection = document.querySelector('#head')
@@ -54,7 +54,7 @@ function Navbar() {
                 <div className="nav">
                     <div className="nav__logo">
                         <Link href="/">
-                            <a>WebSoft</a>
+                            <a><img src="/logo/logo.png" alt="Web Soft logo" /></a>
                         </Link>
                     </div>
 

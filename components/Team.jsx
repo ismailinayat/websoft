@@ -15,6 +15,22 @@ const team = [
         linkedIn: "https://www.linkedin.com/in/ismailinayat/",
         twitter: "https://twitter.com/ismailinayat"
     },
+
+    {
+        name: "Muhammad Zubair",
+        position: "Partner",
+        image: "zubair.jpg",
+        linkedIn: "https://www.linkedin.com/in/ismailinayat/",
+        twitter: "https://twitter.com/ismailinayat"
+    },
+
+    {
+        name: "Muhammad Umair",
+        position: "International Relations",
+        image: "umair.jpg",
+        linkedIn: "https://www.linkedin.com/in/ismailinayat/",
+        twitter: "https://twitter.com/ismailinayat"
+    },
     {
         name: "Mohsin Masoon",
         position: "Customer Relations and Finance",
@@ -28,21 +44,9 @@ const team = [
         image: "bali.jpg",
         linkedIn: "https://www.linkedin.com/in/ismailinayat/",
         twitter: "https://twitter.com/ismailinayat"
-    },
-    {
-        name: "Muhammad Umair",
-        position: "International Relations",
-        image: "milo.jpg",
-        linkedIn: "https://www.linkedin.com/in/ismailinayat/",
-        twitter: "https://twitter.com/ismailinayat"
-    },
-    {
-        name: "Muhammad Zubair",
-        position: "Partner",
-        image: "milo.jpg",
-        linkedIn: "https://www.linkedin.com/in/ismailinayat/",
-        twitter: "https://twitter.com/ismailinayat"
     }
+    
+   
 ]
 
 function Team() {
@@ -87,9 +91,15 @@ function Team() {
                         </div>
 
                         <div className="social">
-                            <div className="social__link">f</div>
-                            <div className="social__link">T</div>
-                            <div className="social__link">I</div>
+                            <div className="social__link">
+                                <img src="/icons/linkedin.png" alt="" />
+                            </div>
+                            <div className="social__link">
+                                <img src="/icons/discord.png" alt="" />
+                            </div>
+                            <div className="social__link">
+                                <img src="/icons/twitter.png" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
