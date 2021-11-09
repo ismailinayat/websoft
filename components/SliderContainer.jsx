@@ -177,7 +177,7 @@ function SliderContainer() {
 
                         <div className="user">
                             <div className="user__img">
-                                <Image src={testimonial.avatar}></Image>
+                                <Image src={testimonial.avatar} alt='image of reviewer'></Image>
                             </div>
 
                             <div className="user__info">

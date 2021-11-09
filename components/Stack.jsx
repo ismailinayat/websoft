@@ -25,7 +25,7 @@ function Stack() {
 
                 <div className="tool">
                     <div className="tool__logo">
-                        <img src="/icons/figma.png" alt="" />
+                        <img src="/icons/figma.png" alt="icon of figma" />
                     </div>
 
                     <div className="tool__name">
@@ -39,7 +39,7 @@ function Stack() {
 
                 <div className="tool">
                     <div className="tool__logo">
-                        <img src="/icons/css.png" alt="" />
+                        <img src="/icons/css.png" alt="icon of CSS" />
                     </div>
 
                     <div className="tool__name">
@@ -52,7 +52,7 @@ function Stack() {
 
                 <div className="tool">
                     <div className="tool__logo">
-                        <img src="/icons/sass.png" alt="" />
+                        <img src="/icons/sass.png" alt="icon of Sass" />
                     </div>
 
                     <div className="tool__name">
@@ -66,7 +66,7 @@ function Stack() {
 
                 <div className="tool">
                     <div className="tool__logo">
-                        <img src="/icons/javascript.png" alt="" />
+                        <img src="/icons/javascript.png" alt="icon of Javascript" />
                     </div>
 
                     <div className="tool__name">
@@ -79,7 +79,7 @@ function Stack() {
 
                 <div className="tool">
                     <div className="tool__logo">
-                        <img src="/icons/react.png" alt="" />
+                        <img src="/icons/react.png" alt="icon of React" />
                     </div>
 
                     <div className="tool__name">
@@ -96,7 +96,7 @@ function Stack() {
 
                 <div className="tool">
                     <div className="tool__logo">
-                        <img src="/icons/node.png" alt="" />
+                        <img src="/icons/node.png" alt="icon of Nodejs" />
                     </div>
 
                     <div className="tool__name">
@@ -109,7 +109,7 @@ function Stack() {
 
                 <div className="tool">
                     <div className="tool__logo">
-                        <img src="/icons/mongodb.png" alt="" />
+                        <img src="/icons/mongodb.png" alt="icon of Mongodb" />
                     </div>
 
                     <div className="tool__name">
@@ -122,7 +122,7 @@ function Stack() {
 
                 <div className="tool">
                     <div className="tool__logo">
-                        <img src="/icons/aws.png" alt="" />
+                        <img src="/icons/aws.png" alt="icon of AWS" />
                     </div>
 
                     <div className="tool__name">

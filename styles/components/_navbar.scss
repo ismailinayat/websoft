@@ -168,13 +168,14 @@
 
     display: block;
     transform: scale(10000%);
+    transform: -webkit-scale(10000%);
 }
 
 .mobile__menu__links {
     position: fixed;
     z-index: 1500;
     font-size: 3rem;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(100%, -50%);
     opacity: 0;

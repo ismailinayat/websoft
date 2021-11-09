@@ -72,10 +72,10 @@ function Team() {
             <div className="team__members">
                 {team.map(member => (
 
-                <div className="member">
+                <div className="member" key={member.name}>
                     <div className="card">
                         <div className="img">
-                            <img src={`/team/${member.image}`} alt="" />
+                            <img src={`/team/${member.image}`} alt={`image of ${member.name}`} />
                         </div>
 
                         <div className="detail">

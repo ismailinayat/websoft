@@ -24,9 +24,7 @@ function Footer() {
                   <p className="footer__copyright--text">
                     Websoft24 is a web development agency based in Pakistan.
 
-                    <div>
-
-                    </div>
+                   <br />
                     @2021 WebSoft24 ltd. All rights reserved.
             
                   </p>

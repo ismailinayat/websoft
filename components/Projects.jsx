@@ -94,19 +94,19 @@ function Projects() {
                     <div className="project__images--container">
                         
                         <div className="image">
-                            <img src="/projects/project-1-1.jpg" alt="" />
+                            <img src="/projects/project-1-1.jpg" alt="tour project image 1" />
                         </div>
                         <div className="image">
-                            <img src="/projects/project-1-2.jpg" alt="" />
+                            <img src="/projects/project-1-2.jpg" alt="tour project image 2" />
                         </div>
                         <div className="image">
-                            <img src="/projects/project-1-3.jpg" alt="" />
+                            <img src="/projects/project-1-3.jpg" alt="tour project image 3" />
                         </div>
                         <div className="image">
-                            <img src="/projects/project-1-4.jpg" alt="" />
+                            <img src="/projects/project-1-4.jpg" alt="tour project image 4" />
                         </div>
                         <div className="image">
-                            <img src="/projects/project-1-2.jpg" alt="" />
+                            <img src="/projects/project-1-2.jpg" alt="tour project image 5" />
                         </div>
                     </div>
                 </div>
